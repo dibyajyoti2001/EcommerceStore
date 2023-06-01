@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { Button } from "../styles/Button";
-import { FaDiscord, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaDiscord, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -27,7 +27,7 @@ const Footer = () => {
         <footer>
           <div className="container grid grid-four-column">
             <div className="footer-about">
-              <h3>Thapa Technical</h3>
+              <h3>Dibyajyoti Sahoo</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
             </div>
             <div className="footer-subscribe">
@@ -47,15 +47,6 @@ const Footer = () => {
                 <div>
                   <FaInstagram className="icons" />
                 </div>
-                <div>
-                  <a
-                    href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaYoutube className="icons" />
-                  </a>
-                </div>
               </div>
             </div>
             <div className="footer-contact">
@@ -67,9 +58,7 @@ const Footer = () => {
           <div className="footer-bottom--section">
             <hr />
             <div className="container grid grid-two-column ">
-              <p>
-                @{new Date().getFullYear()} ThapaTechnical. All Rights Reserved
-              </p>
+              <p>@{new Date().getFullYear()} Dibyajyoti. All Rights Reserved</p>
               <div>
                 <p>PRIVACY POLICY</p>
                 <p>TERMS & CONDITIONS</p>
